@@ -1,0 +1,27 @@
+{
+  "id": "be1633ff-782d-4f27-8847-8d9d74e81d8c",
+  "name": "Translations",
+  "publisher": "BC4All.com",
+  "version": "1.0.0.0",
+  "brief": "The extension allows to translate automatically the records in Business Central",
+  "description": "The extension allows to translate automatically the records in Business Central using Azure Translator Cognitive Service.",
+  "privacyStatement": "",
+  "EULA": "https://github.com/mynavblog/Translations/blob/main/LICENSE",
+  "help": "https://github.com/mynavblog/Translations",
+  "url": "https://github.com/mynavblog/Translations",
+  "logo": "res\\logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50400,
+      "to": 50499
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://github.com/mynavblog/Translations",
+  "showMyCode": true,
+  "runtime": "7.0",
+  "features": ["TranslationFile"]
+}

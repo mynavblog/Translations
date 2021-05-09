@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Translations">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1165028897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Language Mapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1165028897 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Language Mapping - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1165028897 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Language Mapping - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1165028897 - Field 2847367818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translation Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Language Mapping - Field Translation Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2263261615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyNAVBlog.com Translation Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Translation Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2263261615 - Field 2695595997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Translation Setup - Field Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2263261615 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Translation Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2263261615 - Field 1872129304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscription Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Translation Setup - Field Subscription Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2263261615 - Field 302381413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscription Region</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Translation Setup - Field Subscription Region - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3889293761 - Method 1939654238 - NamedType 2584968504" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The list is not retrieved correctly. Please check the issue: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 - ResponseMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MNB Lang. Mapping Mgt. - Method ImportListOfLanguageCodes - NamedType ResponseHasErrorErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3715159264 - Method 1190490297 - NamedType 2799923528" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no languages to translate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MNB Translation Mgt. Impl. - Method BuildTranslateLanguageString - NamedType ThereIsNoLanguagesToTranslateErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3715159264 - Method 510849814 - NamedType 2160100434" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of translation inserted: %1. Number of translation skipped: %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - NoTanslationInsert, %2 - NoTranslationSkipped</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MNB Translation Mgt. Impl. - Method GetSingleRecordTranslation - NamedType TranslationSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3715159264 - Method 683596692 - NamedType 1379988637" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Records selected for translation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MNB Translation Mgt. Impl. - Method GetValueToTranslate - NamedType NoRecordsSelectedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3715159264 - Method 1799477200 - NamedType 1282471157" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No language has been choosen for the translation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MNB Translation Mgt. Impl. - Method SelectLanguagesToTranslate - NamedType NoLanguageHasBeenChoosenErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1165028897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Language Mapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1165028897 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for a language.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Language Mapping - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1165028897 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the language.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Language Mapping - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1165028897 - Control 2847367818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code in azure service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Language Mapping - Control Translation Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1165028897 - Action 847935222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import language codes from azure service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Language Mapping - Action GetLangaugeCodes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1165028897 - Action 847935222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Language Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Language Mapping - Action GetLangaugeCodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1165028897 - Action 847935222 - Method 1377591017 - NamedType 2222213384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to import the list of languages? It will remove existing records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Language Mapping - Action GetLangaugeCodes - Method OnAction - NamedType DoYouWantToImportQst</note>
+        </trans-unit>
+        <trans-unit id="Page 2263261615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translation Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2263261615 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Genaral</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2263261615 - Control 2695595997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the endpoint for the service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Control Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2263261615 - Control 1872129304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the secret key which is set in Azure Portal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Control Subscription Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2263261615 - Control 302381413 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the region that the Translate service is set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Control Subscription Region - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2263261615 - Action 3354121594 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show languages which can be translated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Action LanguageMapping - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2263261615 - Action 3354121594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Action LanguageMapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3707066026 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Item List - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3707066026 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Item List - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 362321929 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2805771090">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Payment Methods - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 362321929 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2805771090">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Payment Methods - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2916313050 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3197070065">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Payment Terms - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2916313050 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3197070065">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Payment Terms - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4226124135 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1636789000">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Shipment Methods - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4226124135 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1636789000">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Shipment Methods - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3436087071 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1994514640">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Units of Measure - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3436087071 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1994514640">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Units of Measure - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 4237323259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet MNB Translations - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
