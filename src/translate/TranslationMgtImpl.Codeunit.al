@@ -199,11 +199,11 @@ codeunit 50405 "MNB Translation Mgt. Impl."
         LanguageValue: Code[20];
         TranslatedValue: Text;
         i: Integer;
-        TranslationTableNo, TranslationKeyFieldNo, TranslationLangFieldNo, TranslationTextFieldNo : Integer;
+        TranslationTableNo, TranslationKeyFieldNo, TranslationKeySecondFieldNo, TranslationLangFieldNo, TranslationTextFieldNo : Integer;
 
     begin
         ITranslation := Enum::"MNB Tables To Translate".FromInteger(RecordRefToTranslate.Number);
-        ITranslation.GetTranslationTable(TranslationTableNo, TranslationKeyFieldNo, TranslationLangFieldNo, TranslationTextFieldNo);
+        ITranslation.GetTranslationTable(TranslationTableNo, TranslationKeyFieldNo, TranslationKeySecondFieldNo, TranslationLangFieldNo, TranslationTextFieldNo);
         RecordRefWithTranslation.Open(TranslationTableNo);
 
         for i := 1 to LanguagesToTranslate.Count do
@@ -213,6 +213,8 @@ codeunit 50405 "MNB Translation Mgt. Impl."
                 RecordRefWithTranslation.Init();
                 RecordRefWithTranslation.Field(TranslationLangFieldNo).Validate(LanguageValue);
                 RecordRefWithTranslation.Field(TranslationKeyFieldNo).Validate(RecordRefToTranslate.Field(ITranslation.GetKeyFieldForSelection()).Value);
+                if TranslationKeySecondFieldNo <> 0 then
+                    RecordRefWithTranslation.Field(TranslationKeySecondFieldNo).Validate(RecordRefToTranslate.Field(ITranslation.GetKeySecondFieldForSelection()).Value);
                 RecordRefWithTranslation.Field(TranslationTextFieldNo).Validate(TranslatedValue);
                 if RecordRefWithTranslation.Insert(true) then
                     NumberTanslationInserted += 1

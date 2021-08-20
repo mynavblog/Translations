@@ -1,11 +1,12 @@
 codeunit 50412 "MNB Unit of Measure" implements "MNB ITranslation"
 {
-    procedure GetTranslationTable(var TranslationTableNo: Integer; var TranslationKeyFieldNo: Integer; var TranslationLangFieldNo: Integer; var TranslationTextFieldNo: Integer)
+    procedure GetTranslationTable(var TranslationTableNo: Integer; var TranslationKeyFieldNo: Integer; var TranslationKeySecondFieldNo: Integer; var TranslationLangFieldNo: Integer; var TranslationTextFieldNo: Integer)
     var
         UnitOfMeasureTranslation: Record "Unit of Measure Translation";
     begin
         TranslationTableNo := Database::"Unit of Measure Translation";
         TranslationKeyFieldNo := UnitOfMeasureTranslation.FieldNo(Code);
+        TranslationKeySecondFieldNo := 0;
         TranslationLangFieldNo := UnitOfMeasureTranslation.FieldNo("Language Code");
         TranslationTextFieldNo := UnitOfMeasureTranslation.FieldNo(Description);
     end;
@@ -22,5 +23,10 @@ codeunit 50412 "MNB Unit of Measure" implements "MNB ITranslation"
         UnitOfMeasure: Record "Unit of Measure";
     begin
         exit(UnitOfMeasure.FieldNo(Code));
+    end;
+
+    procedure GetKeySecondFieldForSelection(): Integer;
+    begin
+        exit(0);
     end;
 }

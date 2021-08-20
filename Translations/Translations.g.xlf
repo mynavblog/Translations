@@ -143,6 +143,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MNB Translation Setup - Action LanguageMapping - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1640214172 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2974788275">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Item Attribute Values - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1640214172 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2974788275">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Item Attribute Values - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1831933525 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 339140622">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Item Attributes - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1831933525 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 339140622">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Item Attributes - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3707066026 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
           <source>translate the selected records</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -172,6 +192,16 @@
           <source>Translate</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Payment Terms - Action MNBTranslate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2172564046 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3280694829">
+          <source>translate the selected records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Reminder Terms - Action MNBTranslate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2172564046 - Action 1336893905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3280694829">
+          <source>Translate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Reminder Terms - Action MNBTranslate - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4226124135 - Action 1336893905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1636789000">
           <source>translate the selected records</source>

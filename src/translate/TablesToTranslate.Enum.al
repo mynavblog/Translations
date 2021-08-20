@@ -24,4 +24,18 @@ enum 50402 "MNB Tables To Translate" implements "MNB ITranslation"
     {
         Implementation = "MNB ITranslation" = "MNB Payment Method";
     }
+
+    value(292; "Reminder Terms")
+    {
+        Implementation = "MNB ITranslation" = "MNB Reminder Terms";
+    }
+
+    value(7500; "Item Attribute")
+    {
+        Implementation = "MNB ITranslation" = "MNB Item Attribute";
+    }
+    value(7501; "Item Attribute Value")
+    {
+        Implementation = "MNB ITranslation" = "MNB Item Attribute Value";
+    }
 }

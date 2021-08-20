@@ -1,4 +1,4 @@
-pageextension 50401 "MNB Item List" extends "Item List"
+pageextension 50405 "MNB Item Attributes" extends "Item Attributes"
 {
     actions
     {
@@ -10,7 +10,8 @@ pageextension 50401 "MNB Item List" extends "Item List"
                 Caption = 'Translate';
                 ToolTip = 'translate the selected records';
                 Image = Translate;
-                Promoted = false;
+                Promoted = true;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin

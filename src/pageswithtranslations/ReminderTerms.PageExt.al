@@ -1,4 +1,4 @@
-pageextension 50401 "MNB Item List" extends "Item List"
+pageextension 50407 "MNB Reminder Terms" extends "Reminder Terms"
 {
     actions
     {

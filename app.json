@@ -2,7 +2,7 @@
   "id": "be1633ff-782d-4f27-8847-8d9d74e81d8c",
   "name": "Translations",
   "publisher": "BC4All.com",
-  "version": "1.0.0.0",
+  "version": "1.1.0.0",
   "brief": "The extension allows to translate automatically the records in Business Central",
   "description": "The extension allows to translate automatically the records in Business Central using Azure Translator Cognitive Service.",
   "privacyStatement": "",
